@@ -1,0 +1,42 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="WebApplication1.WebForm1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Internship Practice</title>
+
+</head>
+    <title>Internship Practice</title>
+
+</head>
+
+<h2> Employee Covid-19 Submission Form  </h2>
+
+<body>
+    <form id="form1" runat="server">
+        <div>
+        </div>
+    </form>
+    <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname">
+    </form>
+    
+    <form>
+
+        <input type="checkbox" id="exposure" name="exposure" value="expo">
+        <label for="exposure"> I have NOT been exposed to COVID-19 in the past 14 days.</label><br>
+        <input type="checkbox" id="symptoms" name="symptoms" value="sym">
+        <label for="symptoms"> I have NOT have any symptoms of COVID-19 in the past 14 days.</label><br>
+        <input type="checkbox" id="VaccineCnt" name="VaccineCnt" value="Vacc">
+        <label for="VaccineCnt"> I DO have ATLEAST 2 Vaccines</label>
+    </form>
+    <form>
+       <input type="SUBMIT" id="sub" name="sub" value="Submit">
+    </form>
+
+</body>
+</html>
